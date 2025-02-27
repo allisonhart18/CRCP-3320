@@ -9,4 +9,4 @@ It's super cool
 
 [Confetti Sketch](./confetti/sktech.html)
 
-[Confetti Markdaoen Page](./confetti/confetti-markdown.md)
+[Confetti Markdown Page](./confetti/confetti-markdown.md)
