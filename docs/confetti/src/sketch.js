@@ -5,8 +5,9 @@ let pg;
 let gerneators = [];
 
 function setup() {
-    createCanvas(500, 500);
-    pg = new ParticleGenerator(250, 100, 20, 10, 20, getRandomColor);
+    const c = createCanvas(500, 500);
+    c.parent('main-content');
+        pg = new ParticleGenerator(250, 100, 20, 10, 20, getRandomColor);
 }
 
 function draw() {

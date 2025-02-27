@@ -46,16 +46,37 @@ class Particle {
        
     }
 
+    get color(){
+        return this.#color;
+    }
+
+    get x (){
+
+        return this.#position.x;
+    }
+
+    get y (){
+
+        return this.#position.y;
+    }
+    get size (){
+        return this.#size;
+    }
+    get radius() {
+        return this.#size/2;
+    }
+
+
     draw() {
-        this.#render();
+        this.render();
         this.#move();
         this.#applyForces();
         this.#bounce();
     }
 
-    #render() {
-        ellipse(this.#position.x, this.#position.y, this.#size, this.#size);
-        FileList(this.#color);
+    render() {
+        ellipse(this.x, this.y, this.size, this.#size);
+        fill(this.color);
     }
 
     #move() {
