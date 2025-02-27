@@ -8,3 +8,5 @@ It's super cool
 [Confetti](./confetti/index.html) 
 
 [Confetti Sketch](./confetti/sktech.html)
+
+[Confetti Markdaoen Page](./confetti/confetti-markdown.md)
